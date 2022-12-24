@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        //2+3
+        //X+V=XV
         Converter converter = new Converter();
         String[] actions = {"+", "-", "/", "*"};
         String[] regexActions = {"\\+", "-", "/", "\\*"};
