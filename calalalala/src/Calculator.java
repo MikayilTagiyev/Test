@@ -20,7 +20,7 @@ public class Calculator {
         }
         //Если не нашли арифметического действия, завершаем программу
         if(actionIndex==-1){
-            System.out.println("Некорректное выражение");
+            System.out.println("строка не является математической операцией");
             return;
         }
         //Делим строчку по найденному арифметическому знаку
@@ -71,7 +71,7 @@ public class Calculator {
                 System.out.println(result);
             }
         }else{
-            System.out.println("Числа должны быть в одном формате");
+            System.out.println("throws Exception //т.к. используются одновременно разные системы счисления");
         }
 
 
